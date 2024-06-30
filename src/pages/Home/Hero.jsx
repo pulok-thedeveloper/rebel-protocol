@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen grid items-center pt-28">
+    <div className="grid items-center pt-32 pb-20">
       <div className="w-4/5 mx-auto flex items-center gap-10">
         <div className="w-3/5">
           <h1 className="text-9xl font-bold uppercase mb-8 ">
