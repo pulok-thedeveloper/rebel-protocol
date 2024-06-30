@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pedro Fernandes",
+    "designation": "Founder",
+    "description": "The heart and soul of the company. Also a person who comes up with an idea and then transforms it to real life.",
+    "image": "/src/assets/member_1.jpg"
+  },
+  {
+    "name": "Rachelle Beaudry",
+    "designation": "Designer",
+    "description": "The creative force behind business. Responsible for turning ideas into visually compelling works.",
+    "image": "/src/assets/member_3.jpg"
+  },
+  {
+    "name": "Sebastian Bennett",
+    "designation": "Developer",
+    "description": "The brain behind businesses. Developer with 7 years of experience in the tech space.",
+    "image": "/src/assets/member_2.jpg"
+  }
+]
