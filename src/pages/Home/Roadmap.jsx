@@ -19,7 +19,7 @@ const Roadmap = () => {
           ></div>
           <h3 className="text-2xl font-semibold text-rebel_primary">Phase 1</h3>
           <p>Q3 2024</p>
-          <div className="bg-gray-700/10 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
+          <div className="bg-gray-700/30 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
             <h3 className="text-rebel_secondary mb-2 font-semibold text-center text-lg">Actions</h3>
             <ul className="flex flex-col gap-1">
               <li className="flex gap-2 items-baseline"><span className="w-2 h-2 rounded-full" style={{background: 'linear-gradient(to right, #E209D4, #FFA9F9)'}}></span> <span>White paper</span></li>
@@ -40,7 +40,7 @@ const Roadmap = () => {
           ></div>
           <h3 className="text-2xl font-semibold text-rebel_primary">Phase 2</h3>
           <p>Q4 2024</p>
-          <div className="bg-gray-700/10 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
+          <div className="bg-gray-700/30 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
             <h3 className="text-rebel_secondary mb-2 font-semibold text-center text-lg">Actions</h3>
             <ul className="flex flex-col gap-1">
               <li className="flex gap-2 items-baseline"><span className="w-2 h-2 rounded-full" style={{background: 'linear-gradient(to right, #E209D4, #FFA9F9)'}}></span> <span>Public sale</span></li>
@@ -61,7 +61,7 @@ const Roadmap = () => {
           ></div>
           <h3 className="text-2xl font-semibold text-rebel_primary">Phase 3</h3>
           <p>Q1 2025</p>
-          <div className="bg-gray-700/10 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
+          <div className="bg-gray-700/30 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
             <h3 className="text-rebel_secondary mb-2 font-semibold text-center text-lg">Actions</h3>
             <ul className="flex flex-col gap-1">
               <li className="flex gap-2 items-baseline"><span className="w-2 h-2 rounded-full" style={{background: 'linear-gradient(to right, #E209D4, #FFA9F9)'}}></span> <span>Phase 2 metaverse & ai</span></li>
@@ -80,7 +80,7 @@ const Roadmap = () => {
           ></div>
           <h3 className="text-2xl font-semibold text-rebel_primary">Phase 4</h3>
           <p>Q2 2025</p>
-          <div className="bg-gray-700/10 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
+          <div className="bg-gray-700/30 backdrop-blur-lg mt-5 w-11/12 px-8 py-5 rounded-xl flex-grow">
             <h3 className="text-rebel_secondary mb-2 font-semibold text-center text-lg">Actions</h3>
             <ul className="flex flex-col gap-1">
               <li className="flex gap-2 items-baseline"><span className="w-2 h-2 rounded-full" style={{background: 'linear-gradient(to right, #E209D4, #FFA9F9)'}}></span> <span>Rwa expansion</span></li>
