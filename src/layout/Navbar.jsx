@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div className="fixed h-28 w-full flex justify-center bg-rebel_bg/25 backdrop-blur-lg z-100">
-      <div className="w-full flex justify-between items-center px-20">
+      <div className="w-full flex md:justify-between justify-center items-center px-20">
         <div>
           <Link to="/" className="flex gap-4 items-center">
             <img className="h-16" src={logo} />
