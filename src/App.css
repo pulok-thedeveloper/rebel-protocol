@@ -6,11 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.hide-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
 @media screen and (max-width: 1536px) {
   html{
     font-size: 80%;
