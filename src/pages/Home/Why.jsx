@@ -13,7 +13,7 @@ const Why = () => {
         <span className="text-rebel_primary">Why</span>{" "}
         <span className="uppercase text-rebel_secondary">Rebel?</span>
       </h2>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-10">
         {data?.map((item, i) => (
           <div
             key={i}

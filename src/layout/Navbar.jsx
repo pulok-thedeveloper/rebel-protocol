@@ -1,16 +1,20 @@
 import { Link } from "react-router-dom";
-import logo from "/src/assets/logo_alt.png";
+import logo from "/src/assets/logo.webp";
 import { FaArrowRightLong } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div className="fixed h-28 w-full flex justify-center bg-rebel_bg/25 backdrop-blur-lg z-100">
       <div className="w-full flex justify-between items-center px-20">
         <div>
-          <Link to="/">
+          <Link to="/" className="flex gap-4 items-center">
             <img className="h-16" src={logo} />
+            <h2 className="text-left flex flex-col uppercase font-bold text-xl">
+              <span>Rebel</span>
+              <span>Protocol</span>
+            </h2>
           </Link>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <ul className="flex gap-10">
             <li>
               <a className="uppercase tracking-wider" href="#why">
@@ -34,7 +38,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <Link
             className="px-5 py-2 rounded-md bg-rebel_primary text-rebel_bg font-semibold flex items-center gap-2 transition-all duration-300 hover:bg-rebel_secondary"
             to=""
