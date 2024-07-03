@@ -6,10 +6,16 @@ html {
   scroll-behavior: smooth;
 }
 
-.hide-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+#roadmap .stages .item .progress::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 140px;
+  height: 5px;
+  background-color: #f2f4f7;
 }
+
 
 @media screen and (max-width: 1536px) {
   html{
